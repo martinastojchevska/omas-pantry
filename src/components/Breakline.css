@@ -1,0 +1,20 @@
+.break-line {
+    width: 90%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto; 
+}
+
+.break-line > .line {
+    flex: 1; 
+    height: 1px;
+    background-color: #073B3A; 
+    margin: 0px; 
+}
+
+.break-line > .break-line-logo {
+    height: 4em; 
+    width: auto;
+    margin: 0 40px; 
+}
